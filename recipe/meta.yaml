@@ -42,7 +42,7 @@ outputs:
         - test -f "${PREFIX}/lib/libgpiod.so"
         - test -f "${PREFIX}/lib/libgpiod.a"
         - test -f "${PREFIX}/lib/libgpiod.so.3"
-        - test -f "${PREFIX}/lib/libgpiod.so.3.1.2"
+        - test -f "${PREFIX}/lib/libgpiod.so.3.1.1"
         - test -f "${PREFIX}/include/gpiod.h"
         - test -f "${PREFIX}/lib/pkgconfig/libgpiod.pc"
     about:
