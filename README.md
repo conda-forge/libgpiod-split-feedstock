@@ -13,13 +13,6 @@ Package license: LGPL-2.1-or-later AND GPL-2.0-or-later
 
 Summary: C library and tools for interacting with the linux GPIO character device (gpiod stands for GPIO device)
 
-About libgpiod
---------------
-
-
-
-Package license: LGPL-2.1-or-later
-
 About gpiod-python
 ------------------
 
@@ -33,6 +26,13 @@ About gpiod-tools
 
 
 Package license: GPL-2.0-or-later
+
+About libgpiod
+--------------
+
+
+
+Package license: LGPL-2.1-or-later
 
 Current build status
 ====================
