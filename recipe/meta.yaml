@@ -10,7 +10,7 @@ source:
   sha256: 4857d0257c40b44518ae7c4d84f1b023fd2be98e23ef9fb795af4d65b7e1607f
 
 build:
-  number: 1
+  number: 2
   skip: true  # [not linux]
 
 requirements:
@@ -20,7 +20,7 @@ requirements:
     - make
     - autoconf
     - autoconf-archive
-    - pkg-config
+    - pkgconf
     - automake
     - libtool
 
@@ -34,7 +34,7 @@ outputs:
         - make
         - autoconf
         - autoconf-archive
-        - pkg-config
+        - pkgconf
         - automake
         - libtool
     test:
@@ -59,7 +59,7 @@ outputs:
         - make
         - autoconf
         - autoconf-archive
-        - pkg-config
+        - pkgconf
         - automake
         - libtool
       host:
